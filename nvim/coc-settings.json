@@ -1,0 +1,42 @@
+{
+	"python.jediEnabled": true,
+	"python.linting.enabled": true,
+	"python.linting.pylintEnabled": false,
+	"diagnostic.errorSign":"×",
+	"explorer.sources": [
+		{
+		  "name": "buffer",
+		  "expand": false
+		},
+		{
+		  "name": "file",
+		  "expand": true
+		}
+	],
+	"python.formatting.provider": "autopep8",
+	"python.formatting.autopep8Args": [
+		"--max-line-length",
+		"120",
+		"--experimental"
+	],
+	"python.pythonPath":"/usr/bin/python2.7",
+	"python.linting.flake8Enabled":true,
+	"python.linting.pylintArgs": ["--reports", "12", "--disable", "I0011"],
+	"python.linting.flake8Args": ["--ignore=W191,E101,E501,E261", "--verbose"],
+	"python.linting.pydocstyleArgs": ["--ignore=D400", "--ignore=D4"],
+	"java.format.enabled":true,
+	"explorer.icon.enableNerdfont": true,
+	"explorer.buffer.tabOnly": true,
+	"explorer.file.autoReveal": false,
+	"explorer.git.icon.status.mixed":"*",
+	"explorer.git.icon.status.unmodified": " ",
+	"explorer.git.icon.status.modified": "✹",
+	"explorer.git.icon.status.added": "✚",
+	"explorer.git.icon.status.deleted": "✖",
+	"explorer.git.icon.status.renamed": "➜",
+	"explorer.git.icon.status.copied": "C",
+	"explorer.git.icon.status.unmerged": "═",
+	"explorer.git.icon.status.untracked": "?",
+	"explorer.git.icon.status.ignored": "!"
+}
+
